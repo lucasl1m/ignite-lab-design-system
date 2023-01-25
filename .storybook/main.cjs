@@ -17,12 +17,4 @@ module.exports = {
     "features": {
         "storyStoreV7": true
     },
-    viteFinal(config, { configType }) {
-        if (configType === 'DEVELOPMENT') {
-            config.base = '/ignite-lab-design-system/'
-
-            // do mutation to the config
-            return config
-        }
-    }
 }
